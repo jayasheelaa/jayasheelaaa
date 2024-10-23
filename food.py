@@ -8,11 +8,11 @@ def suggest_food(time_of_day):
     else:
         return "Sorry, I can only suggest food for breakfast, lunch, or dinner."
 
-# Get user input for time of day
+ 
 time_of_day = input("What time of day is it (breakfast, lunch, dinner)? ")
 
-# Suggest food based on the input
+ 
 food_suggestion = suggest_food(time_of_day)
 
-# Display the food suggestion
+ 
 print(food_suggestion)
