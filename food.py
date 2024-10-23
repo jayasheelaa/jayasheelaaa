@@ -11,7 +11,6 @@ def suggest_food(time_of_day):
  
 time_of_day = input("What time of day is it (breakfast, lunch, dinner)? ")
 
- 
 food_suggestion = suggest_food(time_of_day)
 
  
